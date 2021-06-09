@@ -2,9 +2,9 @@
 
 
 
-### Pre-requisitos 📋
+### Pre requirements 📋
 ```
-
+MariaDB  				10.1.38
 NodeJs                  12.18.3
 
 Global packages
@@ -14,14 +14,15 @@ Global packages
   @quasar/icongenie     Not installed
 
 ```
-### Instalación 🔧
+### Installation 🔧
 
 ```
-1.- Ejecutar el script de creacion que se encuentra en: database
+1.- Execute the creation script found in: database
 2.- Config credentials for database conenction evaluation-be\src\database.js 
 3.- Execute in evaluation-be\ : npm i
 			http://localhost:3000		
 4.- run the  proyect Executing: npm run dev 
+
 5.- Execute in evaluation-fe\ : npm i
 6.- run the  proyect Executing: quasar dev 
 			http://localhost:8080/#/
