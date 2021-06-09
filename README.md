@@ -39,8 +39,6 @@ if the por of BE was changed, you can config the new host or port evaluation-fe\
 
 ![alt text](https://github.com/josue1471515/Evaluation-coding/blob/master/img/c2.png)
 
-![alt text](https://github.com/josue1471515/Evaluation-coding/blob/master/img/c3.png)
-
 ![alt text](https://github.com/josue1471515/Evaluation-coding/blob/master/img/0.png)
 
 ![alt text](https://github.com/josue1471515/Evaluation-coding/blob/master/img/1.png)
