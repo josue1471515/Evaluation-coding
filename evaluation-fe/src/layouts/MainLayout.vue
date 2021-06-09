@@ -8,7 +8,7 @@
         </q-toolbar>
       </q-header>
 
-      <q-drawer v-model="drawer" show-if-above :width="200" :breakpoint="400">
+      <q-drawer v-model="drawer" show-if-above :width="250" :breakpoint="400">
         <q-scroll-area
           style="
             height: calc(100% - 150px);
@@ -21,13 +21,13 @@
             <q-item clickable v-ripple to="/user/index" >
               <q-item-section> Users </q-item-section>
             </q-item>
-
+<q-item clickable v-ripple to="/category/index">
+              <q-item-section> Categories </q-item-section>
+            </q-item>
             <q-item clickable v-ripple  to="/Course/index" >
               <q-item-section> Courses </q-item-section>
             </q-item>
-            <q-item clickable v-ripple to="/category/index">
-              <q-item-section> Categories </q-item-section>
-            </q-item>
+            
           </q-list>
         </q-scroll-area>
 
@@ -40,8 +40,8 @@
             <q-avatar size="56px" class="q-mb-sm">
               <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
             </q-avatar>
-            <div class="text-weight-bold">Razvan Stoenescu</div>
-            <div>@rstoenescu</div>
+            <div class="text-weight-bold">Josue Eduardo Ferrufino </div>
+            <div>josue.ferrufino.soft@gmail.com</div>
           </div>
         </q-img>
       </q-drawer>
